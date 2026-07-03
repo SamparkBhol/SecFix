@@ -6,6 +6,10 @@ them, and then independently re-audits its own patch to confirm the issue is gon
 and the code still parses. Detection and remediation are driven entirely by model
 reasoning — there are no built-in vulnerability signatures or rule tables.
 
+<img width="1340" height="786" alt="image" src="https://github.com/user-attachments/assets/f3a8d6cd-a9f3-4831-936c-0007f9e629a0" />
+<img width="1405" height="747" alt="image" src="https://github.com/user-attachments/assets/7a21b57c-65e5-40ba-8f72-98a3c0abe3bb" />
+<img width="1327" height="552" alt="image" src="https://github.com/user-attachments/assets/e7f99d13-21cb-490f-bcea-56657bdf8f10" />
+
 ## How it works
 
 For every file the agent runs a closed loop:
