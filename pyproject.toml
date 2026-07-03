@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secfix"
+version = "1.0.0"
+description = "Autonomous secure-coding agent that finds vulnerabilities and applies verified fixes"
+requires-python = ">=3.9"
+dependencies = ["httpx>=0.27", "fpdf2>=2.7"]
+
+[project.optional-dependencies]
+context = ["numpy>=1.21"]
+mcp = ["mcp>=1.2"]
+
+[project.scripts]
+secfix = "secfix.cli:main"
+secfix-web = "secfix.web:main"
+secfix-mcp = "secfix.mcp_server:main"
+
+[tool.setuptools]
+packages = ["secfix"]
